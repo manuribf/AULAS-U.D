@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let acesso = window.prompt("Qual é o seu acesso?")
+acesso = acesso.toLowerCase()
+switch (acesso) {
+    case 1:
+        alert(`O usuário tem permissão comum`)
+        break;
+    case 2:
+        alert(`O usuário tem permissão gerente`)
+        break;
+    case 3:
+        alert(`O usuário tem permissão diretor`)
+        break;
+    default:
+        alert(`O usuário não tem permissão`)
+}
+    </script>
+</body>
+</html>
